@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cachotour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cachotour</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="bootstrap.html">Home</a>
+                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link disabled">Contatos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 style="margin-top: 40px; color: #5e704b;">TUDO SOBRE A SERRA DA BODOQUENA</h2>
+                <p>Localizado a 70 km de Bonito/MS, o Parque Nacional da Serra da Bodoquena é uma das atrações mais
+                    procuradas
+                    da
+                    região. Criado em 2000, o local tem como objetivo a preservação da sua rica biodiversidade da Mata
+                    Atlântica.
+                    Por enquanto é a única unidade de conservação federal do estado do Mato Grosso do Sul. E não à toa:
+                    essa
+                    é a
+                    maior área contínua com bioma de Floresta Tropical da área.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="imagens/tudo sobre a serra da dodquena.jpg" height="350px" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row" style="margin-top: 50px; text-align: center;">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h2 style="color: #5e704b;">Principais características da Serra da Bodoquena</h2>
+                    <p>Com mais de 70 mil hectares, o Parque Nacional da Serra da Bodoquena tem como cenário as
+                        montanhas de
+                        rochas
+                        calcárias que as diferenciam das demais montanhas da região. Além disso, o parque conta com
+                        áreas
+                        compostas
+                        por campos alagados, cerrados, floresta estacional e o maior trecho de Mata Atlântica do estado.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h2 style="color: #5e704b;">Diversidade de animais</h2>
+                    <p>A fauna também é rica em espécies. Entre os canídeos, encontramos, por exemplo, as raposas,
+                        lobinhos e os lobos-guarás. Os felinos são representados pelas onças-pintadas, jaguatiricas e
+                        pela onça-parda, também conhecida como suçuarana ou puma. Além disso, outros animais vivem por
+                        lá, como as capivaras, cutias, antas, catetos, queixadas, pacas, lontras e ariranhas.
+
+                        Entre as aves, encontramos as araras-azuis, vermelhas e canindés, bem como a maior ave
+                        encontrada no Brasil, a harpia. Também conhecida como gavião-real, é uma das maiores e mais
+                        fortes águias do planeta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top: 50px;">
+                <h2 style="color: #5e704b;"> Onde fica a Serra da Bodoquena?</h2>
+                <p>A Serra da Bodoquena está situada na borda sudoeste do Pantanal e é formada pelas cidades de
+                    Porto
+                    Murtinho,
+                    Bonito, Jardim, Miranda e Bodoquena, no Mato Grosso do Sul.
+                <div class="gmap_canvas "><iframe class="gmap_iframe" width="600" height="450" frameborder="0"
+                        scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=serra da bodoquena&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        width: 100%;
+                        height: 400px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        width: 100%;
+                        height: 400px;
+                    }
+
+                    .gmap_iframe {
+                        height: 400px !important;
+                    }
+                </style>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6" style="margin-top: 50px;">
+                <h2 style="color: #5e704b;">Contate-nos</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-lg-6">
+                <h2 style="color: #5e704b;">Rica paisagem</h2>
+                <p>
+                    O Parque Nacional da Serra da Bodoquena está dividido em dois fragmentos: norte e sul. Em toda sua
+                    extensão
+                    encontramos uma diversidade de cenários que surpreendem. Além disso, o terreno possui
+                    características
+                    geológicas únicas e a região ainda abriga diversas cavernas, grutas e abismos.
+                <p>Por lá, a vegetação é arbórea densa, com remanescentes da Mata Atlântica e transição para o Cerrado.
+                    Além
+                    disso, a fauna é também um dos grandes diferenciais, com diversas espécies de animais.</p>
+
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="imagens/paisagem.jpg" alt="" style="width: 650px;">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-lg-6">
+                <img src="imagens/peixes.jpg" alt="" width="650px">
+            </div>
+
+            <div class="col-lg-6">
+                <h2 style="color: #5e704b;">Rios de águas cristalinas</h2>
+                <p>
+                    Outra característica que chama a atenção de quem visita a região são as suas águas extremamente
+                    cristalinas.
+                    Isso porque, o Parque Nacional da Serra da Bodoquena possui águas repletas de carbonato de cálcio
+                    que
+                    retém
+                    a
+                    sujeira levando-a para o fundo. Por isso, os rios da região têm algumas das águas mais cristalinas
+                    do
+                    Brasil.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-lg-6">
+                    <h2 style="color: #5e704b;">Trilhas</h2>
+                    <p>
+                        Quem realiza o passeio caminha por uma trilha leve pela mata por 2.500 metros. São até oito
+                        paradas
+                        para
+                        banho
+                        em belas cachoeiras e piscinas naturais do Rio Betione. A trilha não tem limite de idade, pois é
+                        plana e
+                        realizada à sombra das árvores.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h2 style="color: #5e704b;">Passeio de Caiaque Duck</h2>
+                    <p>
+                        Em caiaques infláveis, os visitantes podem se divertir enquanto navegam pelas águas do Balneário
+                        da
+                        Serra da
+                        Bodoquena. O passeio é perfeito para curtir a natureza e observar a flora local.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <section>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-lg-6">
+                <h2 style="color: #5e704b;">Passeio de quadriciclo</h2>
+                <p>
+                    Para quem ama adrenalina, o passeio de quadriciclo na Serra da Bodoquena é a opção ideal. O
+                    percurso
+                    possui
+                    8 km
+                    de extensão e os participantes da atividade passarão por rochas carbonáticas em meio à mata e
+                    encontrarão
+                    vales
+                    e cachoeiras, com direito a parada para banho.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="imagens/quadri.jpg" alt="" style="width: 650px;">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-lg-4">
+                <h2 style="color: #5e704b;">Flutuação nas Nascentes da Serra</h2>
+                <P>
+                    No local é possível realizar também o passeio de flutuação, uma das práticas mais populares no
+                    destino.</P>
+                <p>A
+                    flutuação nas Nascentes da Serra da Bodoquena acontece em um percurso de aproximadamente 600
+                    metros,
+                    no
+                    qual
+                    os
+                    participantes boiam de barriga para baixo enquanto observam um cenário surpreendente, repleto de
+                    peixes
+                    e
+                    enormes plantas subaquáticas.</p>
+            </div>
+
+            <div class="col-lg-4">
+                <h2 style="color: #5e704b;">O que levar?</h2>
+                <p>Roupas leves e tênis são indispensáveis. Lembre-se da roupa de banho e toalha, repelente e
+                    protetor
+                    solar. O
+                    local possui guarda-volumes. Ah, leve também uma câmera fotográfica para registrar tudo!
+                </p>
+            </div>
+
+            <div class="col-lg-4">
+                <h2 style="color: #5e704b;">Conheça a sugestão de roteiro para conhecer o destino</h2>
+                <p>
+                    Agora que você ja conhece tudo sobre a região, que tal começar a planejar a sua viagem por
+                    um dos
+                    destinos
+                    mais
+                    incríveis do país? Por isso, preparei uma sugestão de roteiro ideal para Bonito e Serra da
+                    Bodoquena,
+                    com
+                    algumas dos melhores passeios da região para você curtir em cinco dias no destino. Acesse e
+                    confira!</p>
+
+                <p>Você também pode gostar de...</p>
+                (DOIS QUADRADOS COM SUGESTOES DE PASSEIOS)
+
+                DEIXE SEU COMENTARIO
+                </P>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <P style="color: greenyellow;">CONTATO</P>
+                <p>+55 (67) 3255-1753 +55 (67) 99694-6767 +55 (67) 99232-0557 +55 (67) 99216-6836 +55 (67) 99281-8531
+                    +55 (67)
+                    99202-6870</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p style="color: greenyellow;">FAÇA-NOS UMA VISITA</p>
+                <p>Taguatinga sul-Catolica</p>
+                <p>Cachotour-Taguatinga-Quinta a Domingo- 6h00 até as 19h00 </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <img src="imagens/icone face.png" alt="">
+                <img src="imagens/icone-instagram.png" alt="">
+                <img src="imagens/icone wpp.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <P style="color: greenyellow;">FORMAS DE PAGAMENTO</P>
+                <img src="imagens/img-bandeiras.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

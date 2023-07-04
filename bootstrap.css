@@ -1,0 +1,44 @@
+
+.jumbotron {
+    padding: 80px;
+    margin-bottom: 0%;
+    background-image: url(imagens/backgroundimage.jpg);
+    background-size: cover;
+}
+.container {
+    margin-top: 40px;
+    }
+
+    .container h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+
+    .container p {
+    margin-bottom: 20px;
+    }
+.card mb-3{ 
+    height: 250px;
+    background-color: blue;
+
+}  
+.depoimentos{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.fixado{
+    background-color: rgb(13, 86, 221);
+    position: fixed;
+    right: 0;
+    height: 900px;
+    
+   
+    
+   
+}
+footer{
+    position: relative;
+    z-index: 999;
+    display: block;
+}
